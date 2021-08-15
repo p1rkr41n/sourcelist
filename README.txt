@@ -3,7 +3,7 @@
     output: sourceslist have this package
 //sourceslist.py:
     command: sudo python3 sourceslist.py
-    output: fastest mirror server to connect and apply this
+    output: search fastest mirror server to connect and apply this
 //addsourceslst.py:
     command: sudo python3 addsourceslst.py [sourceslist_link]
     output: needed mirror server to connect and apply this
