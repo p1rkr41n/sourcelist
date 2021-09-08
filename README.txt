@@ -18,3 +18,7 @@
     command: sudo python3 install_insrc.py [package_name] [sourceslist_link]
     output: install package_name ourcelist_link
     demo: sudo python3 install_insrc.py man-db http.kali.org/kali
+//search_fastest_package/fast_search.py
+    command: sudo python3 fast_search.py [package_name]
+    output: sourceslist have this package sort by time
+    demo : sudo python3 fast_search.py man-db
