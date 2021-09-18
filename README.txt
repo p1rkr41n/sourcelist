@@ -6,10 +6,10 @@
     command: sudo python3 sourceslist.py
     output: search fastest mirror server to connect and apply this
     demo:= command
-//addsourceslst.py:
-    command: sudo python3 addsourceslst.py [sourceslist_link]
+//addsourcelst.py:
+    command: sudo python3 addsourcelst.py [sourceslist_link]
     output: apply needed mirror server to connect
-    demo: sudo python3 addsourceslst.py http.kali.org/kali
+    demo: sudo python3 addsourcelst.py http.kali.org/kali
 //reversesourceslst.py:
     command: sudo python3 reversesources.py
     output: revserve old sources.list
