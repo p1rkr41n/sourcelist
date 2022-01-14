@@ -1,3 +1,4 @@
+// for kali linux
 //forcesearch.py: 
     command: sudo python3 forcesearch.py [package_name]
     output: sourceslist have this package
