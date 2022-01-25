@@ -25,5 +25,5 @@
     demo : sudo python3 fast_search.py man-db
 //onlineSearch.py
     command: python3 onlineSearch.py <packet>
-    output: .deb link
+    output: .deb file
     demo: python3 onlineSearch.py oscanner

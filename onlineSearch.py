@@ -4,12 +4,14 @@ from traceback import print_tb
 import requests
 from bs4 import BeautifulSoup
 from requests.api import request
+import os
 # from threading import Thread
 # import threading
 # import time
 
 # request
 import requests
+from sympy import primorial
 try:
     packet = argv[1]
 except:
@@ -43,6 +45,14 @@ else:
     for link in soup.find_all('a'):
         if link.get('href').endswith('deb'):
             print("[+] Final link: " + getter + "/" + link.get('href'))
+            opt = input("[?] Do you want to download it? (y/n)")
+            if opt == "y":
+                print("[+] Downloading...")
+                os.system("wget " + getter + "/" + link.get('href') + " 2>&1")
+                print("[+] Done")
+            else:
+                print("[+] Ok, bye")
+                exit()
             exit()
 
     print("[!] No deb file found")
