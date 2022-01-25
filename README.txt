@@ -23,3 +23,7 @@
     command: sudo python3 fast_search.py [package_name]
     output: sourceslist have this package sort by time
     demo : sudo python3 fast_search.py man-db
+//onlineSearch.py
+    command: python3 onlineSearch.py <packet>
+    output: .deb link
+    demo: python3 onlineSearch.py oscanner
